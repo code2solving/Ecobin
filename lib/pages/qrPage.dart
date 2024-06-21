@@ -89,6 +89,7 @@ class _QrPageState extends State<QrPage> {
                           height:300,
                           width: 351,
                           padding: const EdgeInsets.all(20),
+                          margin: EdgeInsets.only(right: 20),
                           decoration: BoxDecoration(
                               borderRadius:BorderRadius.circular(30),
                             color: const Color(0xff6FD36D).withOpacity(0.15)
